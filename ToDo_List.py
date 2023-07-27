@@ -47,7 +47,7 @@ btn2.place(x=250, y=450)
 
 #edit button
 btn3 = Button(root, text="edit", font="arial 20", bg="blue", fg="white", bd=0, command=edit_task)
-btn3.place(x=150, y=450)
+btn3.place(x=60, y=450)
 
 #this function will help to select the added task in the listbox
 def selection(event):
